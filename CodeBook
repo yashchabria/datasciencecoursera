@@ -1,0 +1,101 @@
+#Code Book
+
+
+Subject  -> holds the subject ID, numerical
+
+"Activity"  -> holds the value of the Subject activity such as Standing, Laying etc, its a character
+
+Body Acceleration Measurements:
+
+"tBodyAcc-mean-X"  -> mean of the Subject Body Acceration in the X direction , its numerical
+"tBodyAcc-mean-Y"  -> mean of the Subject Body Acceration in the Y direction , its numerical
+"tBodyAcc-mean-Z"  -> mean of the Subject Body Acceration in the Z direction , its numerical
+"tBodyAcc-std-X" -> standard deviation of the Subject Body Acceration in the X direction , its numerical
+"tBodyAcc-std-Y" -> standard deviation of the Subject Body Acceration in the Y direction , its numerical
+"tBodyAcc-std-Z" -> standard deviation of the Subject Body Acceration in the Z direction , its numerical
+
+
+Gravitational Measurements:
+
+"tGravityAcc-mean-X"  -> mean of the Subject Body Gravitational Acceration in the X direction , its numerical
+"tGravityAcc-mean-Y"  -> mean of the Subject Body Gravitational Acceration in the Y direction , its numerical
+"tGravityAcc-mean-Z"  -> mean of the Subject Body Gravitational Acceration in the Z direction , its numerical
+"tGravityAcc-std-X"   -> standard deviation of the Subject Body Gravitational Acceration in the X direction , its numerical	 
+"tGravityAcc-std-Y"   -> standard deviation of the Subject Body Gravitational Acceration in the Y direction , its numerical	 
+"tGravityAcc-std-Z"	  -> standard deviation of the Subject Body Gravitational Acceration in the Z direction , its numerical	 
+
+
+
+Body Acceleration Jerk Measurements:
+"tBodyAccJerk-mean-X"  -> mean of the Subject Body Acceration Jerk in the X direction , its numerical
+"tBodyAccJerk-mean-Y"  -> mean of the Subject Body Acceration Jerk in the  Y direction , its numerical
+"tBodyAccJerk-mean-Z"   -> mean of the Subject Body Acceration Jerk in the Z direction , its numerical
+"tBodyAccJerk-std-X"  -> standard deviation of the Subject Body Acceration Jerk in the X direction , its numerical
+"tBodyAccJerk-std-Y"   -> standard deviation of the Subject Body Acceration Jerk in the Y direction , its numerical
+"tBodyAccJerk-std-Z"  -> standard deviation of the Subject Body Acceration Jerk in the Z direction , its numerical
+
+
+Gyro Measurements: 
+"tBodyGyro-mean-X"  -> mean orientation of the body in X direction, its numerical
+"tBodyGyro-mean-Y"  -> mean orientation of the body in Y direction, its numerical
+"tBodyGyro-mean-Z"  -> mean orientation of the body in Z direction, its numerical
+"tBodyGyro-std-X"   -> standard deviation orientation of the body in X direction, its numerical
+"tBodyGyro-std-Y" 	-> standard deviation orientation of the body in Y direction, its numerical
+"tBodyGyro-std-Z"	-> standard deviation orientation of the body in Z direction, its numerical
+
+Gyro Jerk  Measurements: 
+"tBodyGyroJerk-mean-X" -> mean orientation Jerk of the body in X direction, its numerical
+"tBodyGyroJerk-mean-Y" -> mean orientation Jerk of the body in Y direction, its numerical
+"tBodyGyroJerk-mean-Z" -> mean orientation Jerk of the body in Z direction, its numerical
+"tBodyGyroJerk-std-X"  -> standard deviation orientation Jerk of the body in X direction, its numerical
+"tBodyGyroJerk-std-Y"  -> standard deviation orientation Jerk of the body in Y direction, its numerical
+"tBodyGyroJerk-std-Z"  -> standard deviation orientation Jerk of the body in Z direction, its numerical
+
+
+
+"tBodyAccMag-mean"  -> Body Acceleration Mag mean
+"tBodyAccMag-std"  -> Body Acceleration Mag standard deviation
+
+"tGravityAccMag-mean"   -> Body Gravitational Acceleration Mag mean
+"tGravityAccMag-std" 	-> body Gravitational Acceleration Mag standard deviation
+
+
+"tBodyAccJerkMag-mean" -> Body Gravitational Jerk Acceleration Mag mean
+"tBodyAccJerkMag-std" -> Body Gravitational Jerk Acceleration Mag standard deviation
+
+"tBodyGyroMag-mean" -> Body Gyro Mag mean
+"tBodyGyroMag-std" -> Body Gyro Mag  standard deviation
+"tBodyGyroJerkMag-mean" -> Body Gyro Jerk Mag mean
+"tBodyGyroJerkMag-std" -> Body Gyro Jerk Mag standard deviation 
+
+
+
+"fBodyAcc-mean-X"  
+"fBodyAcc-mean-Y"
+"fBodyAcc-mean-Z" 
+"fBodyAcc-std-X"
+"fBodyAcc-std-Y" 
+"fBodyAcc-std-Z"
+
+"fBodyAccJerk-mean-X"
+"fBodyAccJerk-mean-Y" 
+"fBodyAccJerk-mean-Z" 
+
+"fBodyAccJerk-std-X"
+ "fBodyAccJerk-std-Y"
+ "fBodyAccJerk-std-Z"
+ "fBodyGyro-mean-X" 
+ "fBodyGyro-mean-Y" 
+ "fBodyGyro-mean-Z" 
+ "fBodyGyro-std-X"
+ "fBodyGyro-std-Y"
+ "fBodyGyro-std-Z"
+ "fBodyAccMag-mean"
+ "fBodyAccMag-std" 
+ 
+ "fBodyBodyAccJerkMag-mean"
+ "fBodyBodyAccJerkMag-std"
+ "fBodyBodyGyroMag-mean" 
+ "fBodyBodyGyroMag-std" 
+ "fBodyBodyGyroJerkMag-mean"
+ "fBodyBodyGyroJerkMag-std"
